@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#000000"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="malik.tictactoe.Afterstart"
+    tools:showIn="@layout/activity_afterstart">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight=".6"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2.1">
+
+        <TextView
+            android:id="@+id/playerone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="player 1"
+            android:textColor="#29B6F1"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#29B6F1" />
+
+        `
+
+        <TextView
+            android:id="@+id/playertwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="player 2"
+            android:textAlignment="center"
+            android:textColor="#29B6F1"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:weightSum="2.1">
+
+        <TextView
+            android:id="@+id/p1score"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/lineColor"
+            android:textSize="55sp" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#29B6F1" />
+
+        <TextView
+            android:id="@+id/p2score"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/lineColor"
+            android:textSize="55sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tzz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="kzz" />
+
+        <View
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"></View>
+
+        <ImageView
+            android:id="@+id/tzo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="kzo" />
+
+        <View
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"></View>
+
+        <ImageView
+            android:id="@+id/tzt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="kzt" />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_thickness"
+        android:background="@color/lineColor"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/toz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="koz" />
+
+        <View
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"></View>
+
+        <ImageView
+            android:id="@+id/too"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="koo" />
+
+        <View
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"></View>
+
+        <ImageView
+            android:id="@+id/tot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="kot" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_thickness"
+        android:background="@color/lineColor"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ttz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="ktz" />
+
+        <View
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"></View>
+
+        <ImageView
+            android:id="@+id/tto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="kto" />
+
+        <View
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"></View>
+
+        <ImageView
+            android:id="@+id/ttt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="ktt" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:gravity="center"
+        android:weightSum="3">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:text="Game No #"
+
+            android:textColor="#29B6F1" />
+
+
+        <TextView
+            android:id="@+id/gamenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="1"
+            android:textColor="#29B6F1"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
